@@ -96,6 +96,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://courses-platform-frontend-g2i7exmb0-galyms-projects-c6da21f2.vercel.app",
     "https://courses-platform-frontend-g2i7exmb0-galyms-projects-c6da21f2.vercel.app",
     "https://courses-platform-frontend.vercel.app",
+    "https://postman.com"
 ]
 
 # Database
