@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-apd3+y32hv#@z5p1lu79ifcl$80y=3#t!f#nmqq%wb)kk%^p*&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -93,10 +93,12 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://127.0.0.1:3000", 
     "http://courses-platform-frontend-g2i7exmb0-galyms-projects-c6da21f2.vercel.app",
     "https://courses-platform-frontend-g2i7exmb0-galyms-projects-c6da21f2.vercel.app",
     "https://courses-platform-frontend.vercel.app",
-    "https://postman.com"
+    "https://postman.com",
+    "https://courses-platform-frontend-a7o7cuirb-galyms-projects-c6da21f2.vercel.app/",
 ]
 
 # Database
